@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.omelette {
+  width: 100%;
+  height: auto;
+}
+
+header h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 2.4em;
+  font-weight: 700;
+  padding: 12px 26px 8px 26px;
+  text-align: left;
+}
+
+.intro {
+  font-size: larger;
+  padding: 6px 26px;
+}
+
+.headers h3 {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(156, 83, 6);
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+}
+
+#preparation {
+  margin: 6px 26px;
+  border-radius: 8px;
+  background-color: rgba(252, 201, 252, 0.84);
+  color: rgb(80, 64, 80);
+}
+#preparation h3 {
+  margin-left: 15px;
+  color: purple;
+}
+#preparation .prep {
+  display: flex;
+  justify-content: end;
+}
+#preparation .prep ul {
+  width: 93%;
+  margin: 0px;
+  padding: 0px;
+}
+#preparation .prep ul p {
+  margin: 0px;
+  padding: 0px;
+}
+#preparation .prep ul li {
+  margin: 0px;
+  padding: 0px;
+}
+#preparation .prep ul li::marker {
+  color: purple;
+}
+
+#ingredients {
+  color: rgb(80, 60, 80);
+  margin: 6px 26px;
+}
+#ingredients .ingredients {
+  display: flex;
+  justify-content: end;
+}
+#ingredients .ingredients ul {
+  width: 93%;
+  margin-top: 9px;
+  padding: 0%;
+}
+#ingredients .ingredients ul li {
+  margin: 0px;
+}
+
+#instructions {
+  color: rgb(80, 60, 80);
+  margin: 6px 26px;
+}
+#instructions .instruct {
+  display: flex;
+  justify-content: end;
+}
+#instructions .instruct ol {
+  width: 93%;
+  margin-top: 9px;
+  padding: 0%;
+  font-weight: bolder;
+}
+#instructions .instruct ol li {
+  margin: 0px;
+  color: rgb(156, 83, 6);
+}
+#instructions .instruct ol p {
+  margin: 0px;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+}
+
+#nutrition {
+  color: rgb(80, 60, 80);
+  margin: 6px 26px;
+}
+#nutrition p {
+  padding: 0;
+  margin-bottom: 16px;
+}
+#nutrition table {
+  position: relative;
+  width: 100%;
+}
+#nutrition table td {
+  padding: 8px 0px;
+  border-bottom: 2px solid rgb(170, 170, 170);
+}
+#nutrition table td:nth-child(odd) {
+  padding-left: 34px;
+  width: 50%;
+}
+#nutrition table td:nth-child(even) {
+  color: rgb(156, 83, 6);
+  font-weight: 900;
+}
+
+footer {
+  margin: 20px 0px;
+  color: black;
+  font-weight: 600;
+}
+footer span {
+  font-style: italic;
+}
+footer a {
+  text-decoration: none;
+  font-style: oblique;
+}
+
+#second_block {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */
